@@ -18,8 +18,52 @@ Install this repo as npm script:
 
 or clone/download it from the Github:
 
-Go to project root directory and start the dev server:
+Go to project root directory and install all dependencies: 
+
+```npm i```
+
+ Start the dev server:
 
 ```npm run start```
 
 Then check out ```http://localhost:3000/```, you should see the page:
+
+![schemamockpost](https://user-images.githubusercontent.com/15379788/50691613-4e5b4100-1042-11e9-88d8-4dbda6c25a84.png)
+
+## Files structure:
+
+```
+app
+├── node_modules
+├── src
+│     ├── assets
+|     |      └── images
+|     |            └── react.png
+|     ├── components
+|     |      ├── index.js
+|     |      └── ImportedComponent.js
+|     ├── App.js
+|     ├── index.css
+|     └── index.js
+├── babel.config
+├── index.html
+├── package.json
+├── package-lock.json
+├── server.js
+├── webpack.config.dev
+├── webpack.config
+└── webpack.config.prod
+```
+
+## How to
+
+ - Add new absolute path: open ```webpack.config.js``` find 
+```javascript
+resolve: {
+    alias: {
+      components: path.resolve(__dirname, './src/components'),
+      assets: path.resolve(__dirname, './src/assets'),
+    }
+  }
+```
+and add new property in alias object
