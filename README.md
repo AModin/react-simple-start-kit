@@ -1,4 +1,4 @@
-# React simple start seed
+# React simple start kit
 ![React](https://img.shields.io/badge/Seed%20project-react-%2364d0ee.svg)
 ![Webpack](https://img.shields.io/badge/bundler-webpack-%231e72b3.svg)
 
