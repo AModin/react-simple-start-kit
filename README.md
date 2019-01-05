@@ -14,9 +14,13 @@ No test library/state manager included, I'm not gone to force you to use some sp
 
 ## Getting started
 
-Install this repo as npm script:
+Install this repo as npm package:
+
+```npm i react-simple-start-kit```
 
 or clone/download it from the Github:
+
+```https://github.com/AModin/react-simple-start-kit.git```
 
 Go to project root directory and install all dependencies: 
 
