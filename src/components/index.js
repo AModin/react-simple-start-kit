@@ -1,0 +1,1 @@
+export ImportedComponent from './ImportedComponent';
