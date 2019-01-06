@@ -14,9 +14,9 @@ No test library/state manager included, I'm not gone to force you to use some sp
 
 ## Getting started
 
-Clone/download this repo from the Github:
+Fork this repo and then clone/download it from the Github:
 
-```git clone https://github.com/AModin/react-simple-start-kit.git```
+```git clone https://github.com/your_username/your_fork_name.git```
 
 Go to project root directory ```cd ./react-simple-start-kit``` and install all dependencies: 
 
